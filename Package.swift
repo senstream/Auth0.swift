@@ -10,7 +10,7 @@ let package = Package(
     platforms: [.iOS(.v13), .macOS(.v11), .tvOS(.v13), .watchOS(.v7), .visionOS(.v1)],
     products: [.library(name: "Auth0", targets: ["Auth0"])],
     dependencies: [
-        .package(url: "https://github.com/auth0/JWTDecode.swift.git", .upToNextMajor(from: "3.1.0")),
+        .package(url: "https://github.com/senstream/JWTDecode.swift.git", .revision: "4693ade2d52fa7181d720dce7f0b43783199f904"),
         .package(url: "https://github.com/senstream/SimpleKeychain", .upToNextMajor(from: "1.1.1")),
     ],
     targets: [
